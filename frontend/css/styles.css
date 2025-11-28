@@ -54,7 +54,36 @@ body {
     border-bottom: 1px solid var(--border-default);
     flex-shrink: 0;
 }
-
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 16px;
+	height: 100%;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	
+}
+.logo-icon {
+	font-size: 20px;
+}
+.user-avatar {
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--bg-muted);
+	font-size: 14px;
+	color: var(--fg-muted);
+	
+}
 .main-container {
     flex: 1;
     display: flex;
